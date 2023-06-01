@@ -26,6 +26,7 @@ import nawmer from "./company/nawmer.png";
 import sds from "./company/sds.png";
 import meta from "./company/meta.png";
 import yolabs from "./company/yolabs.png";
+import sharpner from "./company/sharpner.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -34,6 +35,8 @@ import ai_image from "./ai_image.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ecomm from "./ecomm.png";
+import restaurant from "./restaurant.png";
 
 export {
   logo,
@@ -62,11 +65,14 @@ export {
   nawmer,
   sds,
   yolabs,
+  sharpner,
   shopify,
   starbucks,
   tesla,
   carrent,
   ai_image,
+  restaurant,
+  ecomm,
   jobit,
   tripguide,
 };

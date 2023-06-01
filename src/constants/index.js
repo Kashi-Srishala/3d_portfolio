@@ -23,8 +23,11 @@ import {
     tesla,
     shopify,
     yolabs,
+    sharpner,
     carrent,
     ai_image,
+    restaurant,
+    ecomm,
     jobit,
     tripguide,
     threejs,
@@ -172,6 +175,18 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    {
+      title: "Frontend Development Course",
+      company_name: "Sharpner Tech",
+      icon: sharpner,
+      iconBg: "#E6DEDD",
+      date: "September 2022 - Present",
+      points: [
+        "DSA Basics of Coding, Looping, Arrays, Bit manipulation Stacks and Queues, Recursion, Linked Lists",
+        "Web Development Basics and Advanced Javascript, DOM Manipulation, DSA Revision 2 Micro Projects",
+        "React JS Basics and Advanced React JS, Styling, Debugging and Lifecyle Methods 3 Industry Macro Projects",
+      ],
+    },
   ];
   
   const testimonials = [
@@ -202,6 +217,49 @@ import {
   ];
   
   const projects = [
+ 
+    {
+      name: "Restaurant Website",
+      description:
+      "Developed a dynamic web application for ordering food online, incorporating a feature-rich shopping cart system and real-time calculation of the total bill, enhancing the convenience and efficiency of the ordering process.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: restaurant,
+      source_code_link: "https://github.com/Kashi-Srishala/restaurant-app-react",
+    },
+    {
+      name: "Ecommerce Website",
+      description:
+        "Crafted a dynamic e-commerce website with a user-friendly interface, allowing customers to explore a vast collection of products, add items to their cart, and proceed to checkout effortlessly, enhanced usability.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restApi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ecomm,
+      source_code_link: "https://github.com/Kashi-Srishala/E-Commerce-React",
+    },
     {
       name: "AI Image Generation App",
       description:
@@ -212,7 +270,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "midJourney",
           color: "green-text-gradient",
         },
         {
@@ -221,49 +279,7 @@ import {
         },
       ],
       image: ai_image,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Kashi-Srishala/AI-Image-Generation-App",
     },
   ];
   
